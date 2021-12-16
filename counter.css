@@ -1,0 +1,85 @@
+
+body {
+    background-color: orange;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+#counter-value{
+    text-align: center;
+    background-color:yellow;
+}
+
+#counter-value p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+#input-range{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#input-range input{
+    padding: 10px;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+#input-range button{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+
+/*Counter*/
+
+
+
+#counter-container{
+  background-color: blueviolet;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.counter{
+    display: inline-block;
+    background-color: greenyellow;
+    width: 15%;
+    max-width: 80px;
+    height: 80px;
+    margin: auto ;
+    box-shadow: 0px 0px 5px white;
+    position: relative;
+    overflow: hidden;
+}
+
+.counter p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    line-height: 80px;
+    border-top: 2px solid black;
+  
+}
+
+p.next {
+    position: absolute;
+    top: 80px;
+}
+
+p.animate {
+    transition-duration: 0.9s;
+    top: 0px;
+}
